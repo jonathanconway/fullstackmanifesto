@@ -1,6 +1,12 @@
 body {
   text-align: center;
-  margin: 5rem;
+  margin: 0 1.5rem;
+}
+
+@media screen and (min-width: 30rem) {
+  body {
+    margin: 5rem;
+  }
 }
 
 .manifesto {
